@@ -34,7 +34,7 @@ alert("certified website development")*/
 variable:*/
 // answer
 
-alert("PIZZA \nPIZZ\nPIZ \nPI \nP")
+// alert("PIZZA \nPIZZ\nPIZ \nPI \nP")
 
 
 /*6. Declare a variable called email and assign to it a string that
@@ -43,5 +43,24 @@ Show the blow mentioned message in an alert box.(Hint: use
 string concatenation)*/
 // Answer
 // 
-alert("g.babar.khan@gmail.com")
-alert String conctenation=
+// alert("g.babar.khan@gmail.com")
+
+
+
+/*7. Declare a variable called book & give it the value “A
+smarter way to learn JavaScript”. Display the following
+message in an alert box:*/
+
+// Answer
+// var book="A smarter way learn JavaScript"
+// alert(" I am trying to learn from the book A smarter way to learn javascript")
+
+/*8. Write a script to display this in browser through JS*/
+// answer
+ document.write("Yah!I can write HTML content  through javascript")
+
+ /*9. Store following string in a variable and show in alert and
+browser through JS*/
+
+// answer
+alert("----------THE END-----------")
