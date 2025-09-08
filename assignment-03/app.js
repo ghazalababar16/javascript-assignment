@@ -82,7 +82,7 @@ Doe ordered 5 T-shirt(s) on XYZ Clothing store”.*/
 
 // let visitorName = "<b> Jhon Doe </b>";
 // let productTitle = "<b> T.Shirt(s) </b>";
-let quantity = 5;
+// let quantity = 5;
 
 // document.write(visitorName + " " + " orderd "  + quantity + productTitle + " on XYZ Clothing store ");
 
