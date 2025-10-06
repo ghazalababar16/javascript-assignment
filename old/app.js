@@ -59,7 +59,6 @@
 //  document.write(flags + "<br/> ")
 //  document.write("<br/>")
 
-
 //  for(let i = 0; i<flags.length; i++){
 //     document.write(flags[i] +"<br/>")
 //  }
@@ -68,11 +67,7 @@
 // 6. Declare and initialize a mixed array.
 // answer
 
-// let mixed =["ali", "sara",334 ,65, true,false,"apple"]
-// for(let i = 0; i< mixed.length; i++ ){
-//    document.write(mixed[i])
-//    document.write('<br/>')
-// }
+
 
 
 
@@ -83,14 +78,12 @@
 // qualifications in your browser like:
 // answer
 
-//  let eduucation =["SSC","HSC","BCS","BS","BCOM","MS","MA"]
 
-//  document.write("<h1>Qualifications</h1>")
- 
-//  for (let i = 1; i < eduucation.length ; i++){
-//    document.write(eduucation[i])
-//    document.write("<br/>")
-//  }
+
+
+
+
+
 
 
 
@@ -113,6 +106,15 @@
 //     document.write("Score: " + scores[i] + " out of " + totalMarks + "<br>");
 //     document.write("Percentage: " + percentage.toFixed(2) + "%<br><br>");
 // }
+
+
+
+
+
+
+
+
+
 
 
 // 9. Initialize an array with color names. Display the array
@@ -155,17 +157,6 @@
 // sort the array in ascending order using Array’s sort
 // method.
 // // answer
-// let studentScores = [320,280,120,265]
-
-// document.write("Student scores: " + studentScores + "<br/>")
-
-// studentScores.sort(function(a, b) {
-//   return a - b;
-// });
-
-
-// document.write("Ordered Scores of Students: " + studentScores);
-
 
 
 
@@ -179,11 +170,6 @@
 // 11. Write a program to initialize an array with city names.
 // Copy 3 array elements from cities array to selectedCities
 // array.
-
-// answer
-let cities =["karachi","laore","quetta","pindi","ialamabad"]
-document.write("Cities list:" + cities + "<br/>")
-
 
 
 
@@ -212,28 +198,3 @@ document.write("Cities list:" + cities + "<br/>")
 
 // let array = ["This", "is", "my", "cat"];
 // document.write(["This", "is", "my", "cat"])
-
-
-
-
-// 13. Create a new array. Store values one by one in such a way
-// that you can access the values in the order in which they
-// // were stored. (FIFO-First In First Out)
-
-// answer
-
-// var values = [];
-
-
-// values.push("Keyboard");
-// values.push("Mouse");
-// values.push("Monitor");
-
-// document.write("Devices: " + values + "<br><br>");
-
-
-// document.write("Out:<br>");
-// document.write(values.shift() + "<br>");
-// document.write(values.shift() + "<br>");
-// document.write(values.shift() + "<br>");
-// document.write(values.shift() + "<br>");
