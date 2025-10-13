@@ -7,7 +7,10 @@
 // representing the following matrix:
 // answer
 
-// const numbers = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+// const numbers = [
+// [0, 1, 2, 3], 
+// [1, 0, 1, 2], 
+// [2, 1, 0, 1]]
 
 // for (let i = 0; i < numbers.length; i++) {
 
@@ -18,12 +21,8 @@
 //     document.write("<br/>");
 // }
 
-
-
 // 3. Write a program to print numeric counting from 1 to 10.
 // answer
-
-
 
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -33,10 +32,6 @@
 // document.write(numbers[i]);
 // document.write("<br/>")
 // }
-
-
-
-
 
 
 // 4. Write a program to print multiplication table of any
@@ -86,7 +81,7 @@
 
 // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 
 
-// let counting = [10, 9, 8, 7, 6, 5, 4, 3, 2,1];
+// let counting = [1,2,3,4,5,6,7,8,9,10];
 
 // document.write("<h4>  Reverse Counting :</h4>");
 // for(let i = 10; i >= 1 ; i--){
@@ -103,8 +98,6 @@
 // for(let i = 0; i <= 20 ; i =i +2 ){
 // document.write([i]);
 // }
-
-
 
 
 // 7. You have an array
@@ -128,14 +121,9 @@
 //     break;
 //   }
 // }
-
 // if (!itemFound) {
 //   document.write(`We are sorry. ${userInput} is not available in our bakery.`);
 // }
-
-
-
-
 
 // 8. Write a program to identify the largest number in the
 // given array.
@@ -154,8 +142,6 @@
 
 // document.write("Array items: " + numbers + "<br>");
 // document.write("The largest number is " + largest);
-
-
 
 
 // 9. Write a program to identify the smallest number in the
@@ -177,10 +163,6 @@
 
 
 
-
-
-
-
 // 10. Write a program to print multiples of 5 ranging 1 to 100?
 // answer
 
@@ -190,3 +172,55 @@
 // for (let i = 5; i <= 100; i += 5) {
 //   document.write(i + "<br/>")
 // }
+
+// 11. Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+// answer
+
+// let cities = ["karachi","lahore","islamabad","quetta","punjab"];
+
+// let selectedCities = cities.slice ([1],[3]);
+
+// document.write(`<h3>cities list:</h3> ${cities} <br/> `);
+
+//   document.write(`<h3> Selected cities list : </h3>  ${selectedCities}`);
+
+
+//12.  Write a program to create a single string from the
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+// answer
+
+
+// let sentence = ["This","is","my ","cat"];
+
+// let lenght  = sentence.join(" ")
+
+// document.write(`Array : ${sentence} <br/>`)
+// document.write(`String : ${lenght}`)
+
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+// answer
+
+// let device = []
+
+// device.push("keyboard");
+// device.push("mouse ");
+// device.push("CPU");
+// device.push("Printer");
+// device.push("monitor");
+
+
+// document.write(`Devices: ${device}  <br/>`)
+
+// document.write(`Out :`, device.shift() + "<br/>")
+// document.write(`Out :`, device.shift() + "<br/>")
+// document.write(`Out :`, device.shift() + "<br/>")
+// document.write(`Out :`, device.shift() + "<br/>")
+// document.write(`Out :`, device.shift() + "<br/>")
+
+
