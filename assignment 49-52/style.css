@@ -1,0 +1,13 @@
+.item {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #aaa;
+   
+}
+button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: blue;
+    color: azure;
+    border-radius: 5px;
+}
